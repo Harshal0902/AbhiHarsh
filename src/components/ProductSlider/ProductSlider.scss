@@ -1,0 +1,27 @@
+$color_alto_approx: #ddd;
+
+.gallery-wrap {
+	.img-small-wrap {
+		text-align: center;
+		.item-gallery {
+			width: 60px;
+			height: 60px;
+			border: 1px solid $color_alto_approx;
+			margin: 7px 2px;
+			display: inline-block;
+			overflow: hidden;
+		}
+		img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: cover;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+	}
+	.img-big-wrap img {
+		height: 450px;
+		width: auto;
+		display: inline-block;
+	}
+}

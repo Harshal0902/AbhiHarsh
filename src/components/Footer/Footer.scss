@@ -1,0 +1,42 @@
+footer{
+    grid-area: footer;
+    background: linear-gradient(315deg, #6617cb 0%, #882463 74%);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 50px;
+    z-index: 4;
+    // margin-bottom: 0em;
+    overflow: hidden;
+    width: 100%;
+    // position: fixed;
+    bottom: -6em;
+  }
+a:link{
+    color: #0099ff;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+  footer{
+    bottom: 0;
+    overflow: hidden;
+    min-width: 100%;
+    top: 112%;
+  }
+}
+@media (max-width: 992px) {
+  footer{
+    bottom: 0;
+    overflow: hidden;
+    min-width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  footer{
+ bottom: 0;
+    overflow: hidden;
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,74 @@
+$color_purple_heart_approx: #6617cb;
+$color_disco_approx: #882463;
+$font_0: Montserrat;
+$url_0: url(https://fonts.googleapis.com/css?family=Montserrat);
+$url_1: url(https://image.flaticon.com/icons/png/128/109/109617.png);
+
+.Place {
+	a {
+		position: absolute;
+		left: 46%;
+		margin-bottom: 40px;
+		margin-right: -40px;
+		transform: translate(-50%, -50%);
+		color: linear-gradient(315deg, $color_purple_heart_approx 0, $color_disco_approx 74%);
+		text-decoration: none;
+		font-size: 1.4em;
+		display: inline-block;
+		font-family: $font_0;
+		text-transform: uppercase;
+		padding: 0.5em 2em;
+		border: 2px solid $color_purple_heart_approx;
+		transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+		&:hover {
+			padding: 0.5em 3.5em 0.5em 0.5em;
+		}
+		&:hover::before {
+			left: calc(100% - 3em);
+			right: 0;
+			transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+		}
+		&:hover::after {
+			right: 0;
+		  transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+		}
+	}
+	a::before {
+		content: "";
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 100%;
+		bottom: 0;
+		background: linear-gradient(315deg, $color_purple_heart_approx 0, $color_disco_approx 74%);
+	  transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+		z-index: -1;
+	}
+	a::after {
+		content: "";
+		display: inline-block;
+		background-image: $url_1;
+		position: absolute;
+		top: 0;
+		left: calc(100% - 3em);
+		right: 3em;
+		bottom: 0;
+		background-size: 1.5em;
+		background-repeat: no-repeat;
+		background-position: center;
+		transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+	}
+}
+
+@media screen and (max-width: 1200px) {
+  .Place 
+    {
+      position: absolute;
+	  left: 45%;
+	  bottom: 2em;
+	//   bottom: -34%;
+	  top: 112%;
+ }
+
+}

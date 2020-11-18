@@ -1,0 +1,26 @@
+$color_tangerine_approx: #421de9;
+$white: #fff;
+$color_mercury_approx: #e9e9e9;
+
+.owl-dots {
+	display: none;
+	position: absolute;
+	bottom: -1rem;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	.owl-dot {
+		display: inline-block;
+		margin: 8px 4px;
+		border-radius: 10px;
+		zoom: 1;
+		background-color: $white;
+		padding: 3px;
+		border: solid 1px $color_mercury_approx;
+		cursor: pointer;
+	}
+	.active.owl-dot {
+		background-color: $color_tangerine_approx;
+		border-color: $color_tangerine_approx;
+	}
+}
