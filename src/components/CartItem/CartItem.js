@@ -24,6 +24,7 @@ const CartItem = (
     };
 
     const handleQuantityChange = (e) => {
+
     };
 
     const incrementOrDecrement = (e, type) => {
@@ -58,7 +59,7 @@ const CartItem = (
             </div>
             <div className="col-12 col-sm-12 text-sm-center col-md-4 text-md-right row product-quantity-container align-items-center">
                 <div className="col-6 col-sm-6 col-md-6 text-md-right" style={{paddingTop: '5px'}}>
-                    <h6><strong>Rs. {formatMoney(price)} <span className="text-muted">x</span></strong></h6>
+                    <h6><strong>Rs.{formatMoney(price)}<span className="text-muted">x</span></strong></h6>
                 </div>
                 <div className="col-4 col-sm-4 col-md-4">
                     <div className="quantity">
@@ -75,7 +76,7 @@ const CartItem = (
                                     type="button" value="-" className="minus" />
                     </div>
                 </div>
-                <div className="col-2 col-sm-2 col-md-2 text-right" style={{zIndex: 2}}>
+                <div className="col-2 col-sm-2 col-md-2 text-right">
                     <button
                         onClick={removeItem}
                         type="button" className="btn btn-outline-danger btn-xs">
