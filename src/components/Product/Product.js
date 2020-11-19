@@ -34,10 +34,7 @@ const Product = (props) => {
 
         const currentX = clientX - cumulativeOffSet(imageRef.current).left;
 
-        // console.dir(imageRef.current);
-
         const part = imageRef.current.clientWidth / images.length;
-        // console.log(Math.ceil(currentX / part) - 1);
 
         let imgIndex = Math.ceil(currentX / part) - 1;
         if (imgIndex < 0) {
