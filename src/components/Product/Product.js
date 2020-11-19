@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
-import {connect} from 'react-redux';
-import {Link} from 'react-router-dom';
-import {formatMoney} from "../../pipes/priceFormatter";
-import {cumulativeOffSet} from "../../utilities/cumulativeOffset";
+import React, { useState } from 'react';
+import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { formatMoney } from "../../pipes/priceFormatter";
+import { cumulativeOffSet } from "../../utilities/cumulativeOffset";
 import './Product.scss';
 import SlideDots from "../SlideDots/SlideDots";
-import {addProductToCart} from "../../actions";
+import { addProductToCart } from "../../actions";
 
 const Product = (props) => {
 
@@ -24,9 +24,9 @@ const Product = (props) => {
 
     const handleImageChange = (e) => {
 
-        let  clientX;
+        let clientX;
 
-        if(e.type === 'touchmove') {
+        if (e.type === 'touchmove') {
             clientX = e.touches[0].clientX;
         } else {
             clientX = e.clientX;
@@ -37,7 +37,7 @@ const Product = (props) => {
         // console.dir(imageRef.current);
 
         const part = imageRef.current.clientWidth / images.length;
-       // console.log(Math.ceil(currentX / part) - 1);
+        // console.log(Math.ceil(currentX / part) - 1);
 
         let imgIndex = Math.ceil(currentX / part) - 1;
         if (imgIndex < 0) {
@@ -68,8 +68,8 @@ const Product = (props) => {
                 onMouseOut={handleMouseOut}
                 onTouchMove={handleImageChange}
                 onTouchEnd={handleMouseOut}
-                className="card-img-top product__img" src={img} alt={title} ref={imageRef}/>
-                <SlideDots len={images.length} activeItem={aItem} changeItem={changeImage}/>
+                className="card-img-top product__img" src={img} alt={title} ref={imageRef} />
+                <SlideDots len={images.length} activeItem={aItem} changeItem={changeImage} />
             </Link>
             <div className="card-body product__text">
                 <h4 className="card-title product__title">
@@ -79,7 +79,7 @@ const Product = (props) => {
                 <p className="card-text product__description">{description}</p>
                 <button
                     onClick={() => {
-                        props.dispatch(addProductToCart({...props.product}))
+                        props.dispatch(addProductToCart({ ...props.product }))
                     }}
                     className="btn btn-info btn-cart"><span><span>Add to cart</span></span>
                 </button>
