@@ -20,7 +20,7 @@ const ShoppingCart = (props) => {
                         )) : <h1 className="display-4 mt-5 text-center">There is no product in your cart</h1>}
                     </div>
                     <div className="card-footer">
-                        <div className="pull-right" style={{ margin: '10px' }}>
+                        <div className="pull-right" style={{ margin: '10px 33px' }}>
                             <div className="pull-right" style={{ margin: '5px' }}>
                                 Total price: <b>Rs. {formatMoney(props.totalPrice)}</b>
                                 <div className="Place">
