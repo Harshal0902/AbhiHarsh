@@ -1,26 +1,33 @@
-$color_tangerine_approx: #421de9;
-$white: #fff;
-$color_mercury_approx: #e9e9e9;
+.owl-dots {
+  display: none;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+
+}
 
 .owl-dots {
-	display: none;
-	position: absolute;
-	bottom: -1rem;
-	left: 0;
-	width: 100%;
-	text-align: center;
-	.owl-dot {
-		display: inline-block;
-		margin: 8px 4px;
-		border-radius: 10px;
-		zoom: 1;
-		background-color: $white;
-		padding: 3px;
-		border: solid 1px $color_mercury_approx;
-		cursor: pointer;
-	}
-	.active.owl-dot {
-		background-color: $color_tangerine_approx;
-		border-color: $color_tangerine_approx;
-	}
+  width: 100%;
+  text-align: center;
+}
+
+.owl-dots .active.owl-dot {
+  background-color: #1000f2;
+  border-color: #2a2dd6;
+}
+
+.owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  margin: 8px 4px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-webkit-radius: 10px;
+  zoom: 1;
+  background-color: #fff;
+  padding: 3px;
+  border: solid 1px #e9e9e9;
+  cursor: pointer;
 }
