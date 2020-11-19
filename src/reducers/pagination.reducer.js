@@ -1,4 +1,4 @@
-import {COUNT_ITEM, GO_PAGE, NEXT_PAGE, PREV_PAGE} from "../actions";
+import { COUNT_ITEM, GO_PAGE, NEXT_PAGE, PREV_PAGE } from "../actions";
 
 const initialState = {
     perPage: 12,
@@ -7,11 +7,10 @@ const initialState = {
     totalItemsCount: 0
 };
 
-
 export const paginationReducer = (state = initialState, action) => {
     switch (action.type) {
         case PREV_PAGE:
-            if(state.currentPage === 1) return state;
+            if (state.currentPage === 1) return state;
 
             return {
                 ...state,
