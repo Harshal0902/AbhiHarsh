@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     toTop: {
         zIndex: 2,
         position: 'fixed',
-        bottom: '52px',
+        bottom: '102px',
         right: '5px',
         border: '3px solid  #0000ff',
         backgroundColor: '#1a75ff',
