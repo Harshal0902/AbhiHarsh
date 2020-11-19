@@ -1,4 +1,4 @@
-export const phones = [{
+export const watch = [{
     "title": "Evolves NextFIT",
     "category": "smart watch",
     "images": ["https://images-na.ssl-images-amazon.com/images/I/51R7%2BUeV5NL._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/61VNWvQ3Q7L._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/613Cl1nJc2L._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/619etOOnc9L._SL1000_.jpg"],
@@ -10,7 +10,7 @@ export const phones = [{
     "weight": "46 Grams",
     "display": "3.5 Centimetres",
     "battery": "1480 mAh",
-    "rating": "⭐⭐⭐",
+    "rating": "🌟🌟🌟",
     "id": 0,
     "description": "Evolves NextFIT Full Touch Smart Watch with All Day HR Blood Oxygen Monitor"
 },
@@ -26,7 +26,7 @@ export const phones = [{
     "weight": "46 Grams",
     "display": "3.5 Centimetres",
     "battery": "1480 mAh",
-    "rating": "⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟",
     "id": 1,
     "description": "Feature/Fitness Band/ECG Monitor/Activity Tracker/Full Touch Colored Display"
 },
@@ -42,7 +42,7 @@ export const phones = [{
     "weight": "46 Grams",
     "display": "3.5 Centimetres",
     "battery": "1480 mAh",
-    "rating": "⭐⭐⭐",
+    "rating": "🌟🌟🌟",
     "id": 2,
     "description": "JOKIN Touch Screen Bluetooth Wireless Y1S Smart Watch Or Android"
 },
@@ -58,7 +58,7 @@ export const phones = [{
     "weight": "46 Grams",
     "display": "3.5 Centimetres",
     "battery": "1480 mAh",
-    "rating": "⭐⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟🌟",
     "id": 3,
     "description": "Welrock A1 Bluetooth Smart Watch Featured with Sim Card Slot/Touch"
 },
@@ -74,7 +74,7 @@ export const phones = [{
     "weight": "99.8 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐",
+    "rating": "🌟🌟🌟",
     "id": 4,
     "description": "NK choudhary DZ09 Smart Watch Smartwatch Bluetooth Touchscreen"
 },
@@ -90,7 +90,7 @@ export const phones = [{
     "weight": "99.8 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟",
     "id": 5,
     "description": "Smart Watch enables you to take a step ahead into the world of technology."
 },
@@ -106,7 +106,7 @@ export const phones = [{
     "weight": "99.8 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟🌟",
     "id": 6,
     "description": "Self-Timer:Take photos by smart watch or use smart watch control phone "
 },
@@ -122,7 +122,7 @@ export const phones = [{
     "weight": "46 Grams",
     "display": "3.5 Centimetres",
     "battery": "1480 mAh",
-    "rating": "⭐⭐⭐",
+    "rating": "🌟🌟🌟",
     "id": 7,
     "description": "Evolves NextFIT Full Touch Smart Watch with All Day HR Blood Oxygen Monitor"
 },
@@ -138,7 +138,7 @@ export const phones = [{
     "weight": "46 Grams",
     "display": "3.5 Centimetres",
     "battery": "1480 mAh",
-    "rating": "⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟",
     "id": 8,
     "description": "Feature/Fitness Band/ECG Monitor/Activity Tracker/Full Touch Colored Display"
 },
@@ -154,7 +154,7 @@ export const phones = [{
     "weight": "46 Grams",
     "display": "3.5 Centimetres",
     "battery": "1480 mAh",
-    "rating": "⭐⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟🌟",
     "id": 9,
     "description": "JOKIN Touch Screen Bluetooth Wireless Y1S Smart Watch Or Android Watch with Camera"
 },
@@ -170,7 +170,7 @@ export const phones = [{
     "weight": "46 Grams",
     "display": "3.5 Centimetres",
     "battery": "1480 mAh",
-    "rating": "⭐⭐⭐",
+    "rating": "🌟🌟🌟",
     "id": 10,
     "description": "Welrock A1 Bluetooth Smart Watch Featured with Sim Card Slot/Touch Screen"
 },
@@ -186,7 +186,7 @@ export const phones = [{
     "weight": "99.8 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟",
     "id": 11,
     "description": "NK choudhary DZ09 Smart Watch Smartwatch Bluetooth Touchscreen Sweatproof"
 },
@@ -202,7 +202,7 @@ export const phones = [{
     "weight": "99.8 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟🌟",
     "id": 12,
     "description": "Smart Watch enables you to take a step ahead into the world of technology."
 },
@@ -218,7 +218,7 @@ export const phones = [{
     "weight": "99.8 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐",
+    "rating": "🌟🌟🌟",
     "id": 13,
     "description": "Self-Timer:Take photos by smart watch or use smart watch control the phones"
 },
@@ -234,7 +234,7 @@ export const phones = [{
     "weight": "25 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟",
     "id": 14,
     "description": "Metal body (Aluminum Alloy), giving premium and solid look and feel. 1.65”."
 },
@@ -250,7 +250,7 @@ export const phones = [{
     "weight": "26.7 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟🌟",
     "id": 15,
     "description": "Apple Watch Series 3 (GPS, 42mm) - Space Grey Aluminium Case with Black Sport Band"
 },
@@ -266,7 +266,7 @@ export const phones = [{
     "weight": "20.7 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟",
     "id": 16,
     "description": "New Apple Watch Series 6 (GPS, 40mm) - Product(RED) - Aluminium Case with Product"
 },
@@ -282,7 +282,7 @@ export const phones = [{
     "weight": "36.7 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟",
     "id": 17,
     "description": "GPS model lets you take calls and reply to texts from your wrist. Up to 2x faster processor than Series"
 },
@@ -298,7 +298,7 @@ export const phones = [{
     "weight": "36.7 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟",
     "id": 18,
     "description": "Store and stream music, podcasts, and audiobooks. International emergency calling"
 },
@@ -314,7 +314,7 @@ export const phones = [{
     "weight": "36.7 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟🌟",
     "id": 19,
     "description": "Store and stream music, podcasts, and audiobooks. International emergency calling"
 },
@@ -330,7 +330,7 @@ export const phones = [{
     "weight": "410 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐",
+    "rating": "🌟🌟🌟",
     "id": 20,
     "description": "Galaxy Watch 4G can be activated only with Samsung Galaxy Smartphones (Android 5.0 & 1.5GB or higher)"
 },
@@ -346,7 +346,7 @@ export const phones = [{
     "weight": "170 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟",
     "id": 21,
     "description": "Connectivity - Bluetooth 5.0. Compatible with Android 5.0 or higher and RAM 1.5GB above. iPhone 5"
 },
@@ -362,7 +362,7 @@ export const phones = [{
     "weight": "170 Grams",
     "display": "3.5 Centimetres",
     "battery": "1400 mAh",
-    "rating": "⭐⭐⭐⭐⭐",
+    "rating": "🌟🌟🌟🌟🌟",
     "id": 22,
     "description": "Specifications: Dual-core 1GHz CPU, 768MB RAM, 4GB internal memory"
 },
