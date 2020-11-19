@@ -9,7 +9,7 @@ const ShoppingCart = (props) => {
         <>
             <div className="container" style={{ paddingTop: '6rem' }}>
                 <div className="card shopping-cart">
-                    <div className="card-header text-light" style={{background: "linear-gradient(315deg, #6617cb 0%, #882463 74%)"}}>
+                    <div className="card-header text-light" style={{ background: "linear-gradient(315deg, #6617cb 0%, #882463 74%)" }}>
                         <i className="fa fa-shopping-cart pr-2" aria-hidden="true"></i>
                             Shipping cart
                             <div className="clearfix"></div>
@@ -24,7 +24,7 @@ const ShoppingCart = (props) => {
                             <div className="pull-right" style={{ margin: '5px' }}>
                                 Total price: <b>Rs. {formatMoney(props.totalPrice)}</b>
                                 <div className="Place">
-                                <a href="#">Place Order</a>
+                                    <a href="#">Place Order</a>
                                 </div>
                             </div>
                         </div>
