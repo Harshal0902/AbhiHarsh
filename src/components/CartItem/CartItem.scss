@@ -1,3 +1,5 @@
+
+
 .quantity {
   float: left;
   margin-right: 15px;
@@ -6,6 +8,7 @@
   width: 80px;
   overflow: hidden
 }
+
 .quantity input {
   margin: 0;
   text-align: center;
@@ -19,6 +22,7 @@
   outline: 0;
   background-color: #F6F6F6
 }
+
 .quantity input.qty {
   position: relative;
   border: 0;
@@ -31,12 +35,15 @@
   border-radius: 0;
   background-clip: padding-box
 }
+
 .quantity .minus, .quantity .plus {
   line-height: 0;
   background-clip: padding-box;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  -webkit-background-size: 6px 30px;
+  -moz-background-size: 6px 30px;
   color: #bbb;
   font-size: 20px;
   position: absolute;
@@ -47,23 +54,28 @@
   width: 25px;
   z-index: 3
 }
+
 .quantity .minus:hover, .quantity .plus:hover {
   background-color: #dad8da
 }
+
 .quantity .minus {
-  bottom: 0;
+  bottom: 0
 }
 .shopping-cart {
   margin-top: 20px;
 }
+
 @media only screen and (max-width: 768px) {
   .product-name {
     font-size: 1rem;
     margin-top: .5rem;
   }
+
   .product-description {
     font-size: 1rem;
   }
+
   .product-quantity-container {
     margin-top: .5rem;
   }
