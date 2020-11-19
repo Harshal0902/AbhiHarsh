@@ -13,4 +13,3 @@ export const  brandFilterReducer = (state = '', action) => {
             return state;
     }
 };
-
