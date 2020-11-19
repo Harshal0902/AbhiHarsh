@@ -24,13 +24,6 @@ const CartItem = (
     };
 
     const handleQuantityChange = (e) => {
-      /*  const value = e.target.value;
-        console.log(value)
-
-        if(value > 0 && value <= 10) {
-            setItemQuantity(value);
-            dispatch(addProductToCart(id));
-        } */
     };
 
     const incrementOrDecrement = (e, type) => {
