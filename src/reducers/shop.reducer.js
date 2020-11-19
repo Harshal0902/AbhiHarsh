@@ -4,10 +4,10 @@ import {
     INCREMENT_CART_ITEM_QUANTITY,
     REMOVE_PRODUCT_FROM_CART
 } from '../actions';
-import { phones } from "../data/phones";
+import { watch } from "../data/watch";
 
 const initialState = {
-    products: phones,
+    products: watch,
     cart: []
 };
 
