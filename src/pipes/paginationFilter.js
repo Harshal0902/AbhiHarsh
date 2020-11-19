@@ -9,4 +9,3 @@ export const paginationPipe = (state,args) => {
 
     return state.slice(location, location + args.perPage);
 };
-
