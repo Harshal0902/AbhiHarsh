@@ -1,32 +1,33 @@
-//colors
-$gray:  gray;
-$dodger_blue: dodgerblue;
-$color_dove_gray_approx: #646464;
-
 .layout-mode {
-	display: flex;
-	flex-direction: row;
-	padding: 0.3rem;
-	border: 2px solid $gray;
-	cursor: pointer;
-	&:hover {
-		border: 2px solid $color_dove_gray_approx;
-	}
-	&:not(:last-child) {
-		margin-right: 0.8rem;
-	}
-}
-.layout-mode__item {
-	width: 0.7rem;
-	height: 0.7rem;
-	background-color: $gray;
-	&:not(:last-child) {
-		margin-right: 0.3rem;
-	}
-}
-.layout-mode__item--active {
-	background-color: $dodger_blue;
-}
-.layout-mode--active {
-	border: 2px solid $dodger_blue;
+  display: flex;
+  flex-direction: row;
+  padding: 0.3rem;
+  border: 2px solid gray;
+  cursor: pointer;
+
+  &__item {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: gray;
+
+    &--active {
+      background-color: dodgerblue;
+    }
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 0.3rem;
+  }
+
+  &:not(:last-child) {
+    margin-right: 0.8rem;
+  }
+
+  &:hover {
+    border: 2px solid #646464;
+  }
+
+  &--active {
+    border: 2px solid dodgerblue;
+  }
 }
