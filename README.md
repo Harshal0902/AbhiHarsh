@@ -20,20 +20,20 @@ AbhiHarsh is a responsive eCommerce Web App. Build using React JS and Redux.
 - Visually interactive & responsive frontend design.
 - Implemented a feature to filter products based on different categories.
 
-## To do:
+## To do
 - Wish list
 - User Login/Sign Up
 - Addign more filter
 - Adding user-generated reviews
 
-## Prerequisites:  
+## Prerequisites
 
 Required to install and run the software:
 
  * [npm](https://www.npmjs.com/get-npm)
 
 
-## Installing and Running:  
+## Installing and Running
 
 From the project folder, run these commands in console (terminal) to install dependencies and run the app:
 ```
