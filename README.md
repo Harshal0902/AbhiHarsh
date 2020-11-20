@@ -1,1 +1,27 @@
-# AbhiHarsh---An-E-Commerce-Web-App
+# AbhiHarsh
+AbhiHarsh is a responsive eCommerce Web App. Build using React JS and Redux.
+
+## Demo Link
+
+## Screenshots
+
+![A](https://user-images.githubusercontent.com/64153988/99826418-582ab680-2b7e-11eb-9df4-ce82c2d592da.jpeg)
+![B](https://user-images.githubusercontent.com/64153988/99826419-595be380-2b7e-11eb-81ed-f264a4a210fd.jpeg)
+![C](https://user-images.githubusercontent.com/64153988/99826421-5a8d1080-2b7e-11eb-940a-8e81fade1179.jpeg)
+![D](https://user-images.githubusercontent.com/64153988/99826416-5660f300-2b7e-11eb-9227-bf14c7c22b99.jpeg)
+
+## Prerequisites:  
+
+Required to install and run the software:
+
+ * [npm](https://www.npmjs.com/get-npm)
+
+
+## Installing and Running:  
+
+From the project folder, run these commands in console (terminal) to install dependencies and run the app:
+```
+1. npm install
+2. npm run dev
+3. npm start
+```
