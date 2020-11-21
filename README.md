@@ -17,7 +17,7 @@ https://abhiharsh-8b483.web.app/
 
 Harshal Raikwar - Front end  developerand
 
-Harshal Raikwar - Front end backend development
+Abhinav Karforma - Front end backend development
 
 ## Main Features
 - Custom Scroll bar.
