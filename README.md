@@ -15,7 +15,7 @@ https://abhiharsh-8b483.web.app/
 
 ## Authors:
 
-Harshal Raikwar - Front end  developerand
+Harshal Raikwar - Front end developerand
 
 Abhinav Karforma - Front end backend development
 
