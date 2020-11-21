@@ -13,6 +13,12 @@ https://abhiharsh-8b483.web.app/
 ![E](https://user-images.githubusercontent.com/64153988/99828933-a097a380-2b81-11eb-955d-58750c1dabf5.jpeg)
 ![D](https://user-images.githubusercontent.com/64153988/99826416-5660f300-2b7e-11eb-9227-bf14c7c22b99.jpeg)
 
+## Authors:
+
+Harshal Raikwar - Front end  developerand
+
+Harshal Raikwar - Front end backend development
+
 ## Main Features
 - Custom Scroll bar.
 - Scroll to Top button.
