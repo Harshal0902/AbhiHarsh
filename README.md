@@ -13,8 +13,7 @@ https://abhiharsh-8b483.web.app/
 ![D](https://user-images.githubusercontent.com/64153988/99877827-e5c1e100-2c26-11eb-961e-6569fac5ba38.png)
 ![D](https://user-images.githubusercontent.com/64153988/99826416-5660f300-2b7e-11eb-9227-bf14c7c22b99.jpeg)
 
-## Authors:
-
+## Authors
 Harshal Raikwar - Front end developerand
 
 Abhinav Karforma - Front end backend development
